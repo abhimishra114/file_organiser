@@ -13,7 +13,9 @@ file_types = {
     
 }
 
+
 # Function to create directories if they don't exist
+
 def create_directories():
     for directory in file_types.keys():
         dir_path = os.path.join(path, directory)

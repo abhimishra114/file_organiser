@@ -2,13 +2,13 @@ import os
 import shutil
 
 # path of the folder which needs to be organised
-path = "C:/Users/Abhisekh/Downloads/test_organise"
+path = "/home/anik/Downloads"
 
 file_types = {
     "images": [".jpg", ".jpeg", ".png", ".gif", ".svg", ".bmp", ".tiff", ".heic", ".webp"],
     "videos": [".mp4", ".mkv", ".flv", ".avi", ".mov"],
-    "software": [".exe", ".msi", ".dmg", ".pkg"],
-    "documents": [".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt"],
+    "software": [".exe", ".msi", ".dmg", ".pkg", ".rpm", ".part", ".deb", ".iso"],
+    "documents": [".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".pem", ".json", ".drawio", ".edf"],
     "archives": [".zip", ".rar", ".tar", ".gz", ".bz2"],
     
 }
